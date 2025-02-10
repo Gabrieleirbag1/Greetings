@@ -1,0 +1,46 @@
+.greeting-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: lightgray 4px 4px 20px;
+  }
+  .greeting-card img {
+    width: 100%;
+  }
+  .greeting-card h2 {
+    margin-bottom: 0;
+  }
+  .greeting-card p {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  .greeting-card button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: lightgray 3px 3px 7px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .greeting-card button:active {
+    transform: translate(1px, 1px);
+    box-shadow: lightgray 0 0 5px;
+  }
+  
+  .greeted {
+    background-color: rgba(144, 238, 144, 0.4);
+    color: darkgreen;
+  }
+  .greeted button {
+    box-shadow: lightgreen 3px 3px 7px;
+    color: darkgreen;
+  }
+  .greeted button:active {
+    box-shadow: lightgreen 0 0 5px;
+  }
+  

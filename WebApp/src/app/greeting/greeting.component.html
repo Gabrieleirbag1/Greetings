@@ -1,0 +1,5 @@
+<div class="greeting-card" id="{{ greeting._id }}">
+    <h2> {{ greeting.title | uppercase }}</h2>
+    <button (click)="onViewGreeting()">VIEW</button>
+    <button class="delete-button" (click)="deleteGreeting()">X</button>
+</div>

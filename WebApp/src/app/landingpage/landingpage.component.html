@@ -1,0 +1,6 @@
+<div class="city-div">
+    <button (click)="onClickRouterButton()">Continuer vers Greetings</button>
+    <p>Number residents: {{ (myLanding.residents / 1000000) | number:'1.0-2' }}M </p>
+    <img [src]="myLanding.imageUrl" [alt]="myLanding.imageUrl">
+    <p>The beautiful {{myLanding.city}} city !</p>
+</div>

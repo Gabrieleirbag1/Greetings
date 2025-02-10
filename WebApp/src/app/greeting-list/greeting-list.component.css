@@ -1,0 +1,13 @@
+.add-greeting-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 2px dotted #000;
+}
+
+.add-greeting-card:hover {
+    background-color: #f0f0f0;
+}

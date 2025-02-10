@@ -1,0 +1,21 @@
+<div class="greeting-card" [ngClass]="{'greeted': haveGreeted}">
+    <h2> {{ greeting.title | uppercase }}</h2>
+    <p> Mise en ligne le {{ greeting.createdAt }}</p>
+    <p> {{greeting.description}}</p>
+    <p>
+        <button (click)="onAddGreeting()"> 
+            {{ greetingText }}
+        </button> 
+        Nombre de salutations : 
+        <span [ngStyle]="{ color: 'rgb(0, ' + greeting.greetings + ', 0)' }">
+            {{ greeting.greetings }}
+        </span>
+    </p>
+    <img [src]="greeting.imageUrl" [alt]="greeting.imageUrl">
+    @if (greeting.location) {
+        <p> Localisation : {{greeting.location}}</p>
+    }
+    @else {
+        <p> Aucune localisation précisée</p>
+    }
+</div>

@@ -1,0 +1,27 @@
+.city-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-div img {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
+
+p {
+    font-size: 2em;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
